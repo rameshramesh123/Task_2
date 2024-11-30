@@ -1,23 +1,6 @@
-package solution1_1;
+package Solution_1_4;
 
- class Person {
-    int age=18;
+public class Person {
     String name;
-
-    public void displayDetails(){
-        System.out.println("Person age is"+" "+this.age);
-        System.out.println("Person name is"+" "+name);
-    }
-    public Person(int age,String name){
-        this.age=age;
-        this.name=name;
-
-    }
-     public static void main(String[] args) {
-         Person person=new Person(18,"Ramesh");
-         person.displayDetails();
-
-
-     }
-
+    int age;
 }
